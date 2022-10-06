@@ -10,8 +10,8 @@ void SecondDigit(int num)
     int fourthDigit = (num / 10) % 10;
     int fifthDigit = num % 10;
 
-    if (firstDigit == fifthDigit && secondDigit == fourthDigit) Console.WriteLine("Да");
-   else Console.WriteLine("Нет");
+    if (firstDigit == fifthDigit && secondDigit == fourthDigit) Console.WriteLine("да");
+   else Console.WriteLine("нет");
 }
 if (number > 9999 && number < 100000) SecondDigit(number);
 else Console.WriteLine("Введено не корректное число");

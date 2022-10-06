@@ -22,4 +22,4 @@ double Distance(int arg1, int arg2, int arg3, int arg4, int arg5, int arg6)
 }
 
 double result = Distance(x1, y1, z1, x2, y2, z2);
-Console.WriteLine($"Расстояние между точками равно {result}");
+Console.WriteLine(result);

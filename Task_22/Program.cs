@@ -8,7 +8,7 @@ void SquareTable(int number)
     int counter = 1;
     while (counter <= number)
     {
-        System.Console.WriteLine($"{counter} {counter * counter}");
+        System.Console.WriteLine($"| {counter, 3} | {counter * counter, 3} |");
         counter++;
     }
 }
